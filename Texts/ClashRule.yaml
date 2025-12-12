@@ -1,0 +1,320 @@
+proxy-groups:
+  - name: Proxies
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Proxy.png
+    type: select
+    proxies:
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Apple
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Apple_1.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Microsoft
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Microsoft.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Google
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Google.png
+    type: select
+    proxies:
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: BiliBili
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/bilibili_3.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: YouTube
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YouTube_01.png
+    type: select
+    proxies:
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Bahamut
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/bahamute.png
+    type: select
+    proxies:
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Steam
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Steam.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Xbox
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Xbox.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Spotify
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Spotify.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: iCloud
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/iCloud.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: OneDrive
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/OneDrive(1).png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: PayPal
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/PayPal.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: OpenAI
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChatGPT.png
+    type: select
+    proxies:
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Gemini
+    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Gemini_01.png
+    type: select
+    proxies:
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Unity
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Unity.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Final
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Final.png
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+      - Others
+  - name: Hong Kong
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Hong_Kong.png
+    type: select
+    proxies:
+  - name: Taiwan
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Taiwan.png
+    type: select
+    proxies:
+  - name: Singapore
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Singapore.png
+    type: select
+    proxies:
+  - name: Japan
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Japan.png
+    type: select
+    proxies:
+  - name: United States
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/United_States.png
+    type: select
+    proxies:
+  - name: Others
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/United_Nations.png
+    type: select
+    proxies:  
+rule-providers:
+  Lan:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
+    interval: 86400
+  iCloud:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/iCloud/iCloud.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
+  OneDrive:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
+  BiliBili:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
+    interval: 86400
+  Bahamut:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+  Xbox:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Xbox/Xbox.yaml
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml
+    interval: 86400
+  OpenAI:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+    interval: 86400
+  Gemini:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Gemini/Gemini.yaml
+    interval: 86400
+  Unity:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Unity/Unity.yaml
+    interval: 86400
+  PayPal:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PayPal/PayPal.yaml
+    interval: 86400
+rules:
+  - RULE-SET,Lan,DIRECT
+  - GEOIP,LAN,DIRECT
+  - RULE-SET,PayPal,PayPal
+  - RULE-SET,OpenAI,OpenAI
+  - RULE-SET,Gemini,Gemini
+  - RULE-SET,Unity,Unity
+  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Bahamut,Bahamut
+  - RULE-SET,Steam,Steam
+  - RULE-SET,Xbox,Xbox
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,Google,Google
+  - RULE-SET,iCloud,iCloud
+  - RULE-SET,Apple,Apple
+  - RULE-SET,OneDrive,OneDrive
+  - RULE-SET,Microsoft,Microsoft
+  - GEOIP,CN,DIRECT
+  - MATCH,Final
