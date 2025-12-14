@@ -127,7 +127,7 @@ proxy-groups:
       - United States
       - Others
   - name: iCloud
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/iCloud.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/iCloud.png
     type: select
     proxies:
       - DIRECT
