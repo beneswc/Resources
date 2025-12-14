@@ -45,7 +45,7 @@ proxy-groups:
       - United States
       - Others
   - name: BiliBili
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/bilibili_3.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/BiliBili.jpg
     type: select
     proxies:
       - DIRECT
@@ -57,7 +57,7 @@ proxy-groups:
       - United States
       - Others
   - name: YouTube
-    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/YouTube_01.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/YouTube.jpg
     type: select
     proxies:
       - Proxies
@@ -68,7 +68,7 @@ proxy-groups:
       - United States
       - Others
   - name: Bahamut
-    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/bahamute.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Bahamut.jpg
     type: select
     proxies:
       - Proxies
@@ -79,7 +79,7 @@ proxy-groups:
       - United States
       - Others
   - name: Steam
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Steam.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Steam.jpg
     type: select
     proxies:
       - DIRECT
@@ -91,7 +91,7 @@ proxy-groups:
       - United States
       - Others
   - name: Xbox
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Xbox.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Xbox.jpg
     type: select
     proxies:
       - DIRECT
@@ -103,7 +103,7 @@ proxy-groups:
       - United States
       - Others
   - name: Spotify
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Spotify.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Spotify.jpg
     type: select
     proxies:
       - DIRECT
@@ -115,7 +115,7 @@ proxy-groups:
       - United States
       - Others
   - name: OneDrive
-    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/OneDrive(1).png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/OneDrive.jpg
     type: select
     proxies:
       - DIRECT
@@ -127,7 +127,7 @@ proxy-groups:
       - United States
       - Others
   - name: iCloud
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/iCloud.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/iCloud.jpg
     type: select
     proxies:
       - DIRECT
@@ -139,7 +139,7 @@ proxy-groups:
       - United States
       - Others
   - name: PayPal
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/PayPal.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/PayPal.jpg
     type: select
     proxies:
       - DIRECT
@@ -150,8 +150,8 @@ proxy-groups:
       - Japan
       - United States
       - Others
-  - name: OpenAI
-    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ChatGPT.png
+  - name: ChatGPT
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/ChatGPT.jpg
     type: select
     proxies:
       - Proxies
@@ -162,7 +162,7 @@ proxy-groups:
       - United States
       - Others
   - name: Gemini
-    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Gemini_01.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Gemini.jpg
     type: select
     proxies:
       - Proxies
