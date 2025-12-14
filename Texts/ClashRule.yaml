@@ -45,7 +45,7 @@ proxy-groups:
       - United States
       - Others
   - name: BiliBili
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/BiliBili.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/BiliBili.webp
     type: select
     proxies:
       - DIRECT
@@ -57,7 +57,7 @@ proxy-groups:
       - United States
       - Others
   - name: YouTube
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/YouTube.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/YouTube.webp
     type: select
     proxies:
       - Proxies
@@ -68,7 +68,7 @@ proxy-groups:
       - United States
       - Others
   - name: Bahamut
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Bahamut.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Bahamut.webp
     type: select
     proxies:
       - Proxies
@@ -79,7 +79,7 @@ proxy-groups:
       - United States
       - Others
   - name: Steam
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Steam.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Steam.webp
     type: select
     proxies:
       - DIRECT
@@ -91,7 +91,7 @@ proxy-groups:
       - United States
       - Others
   - name: Xbox
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Xbox.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Xbox.webp
     type: select
     proxies:
       - DIRECT
@@ -103,7 +103,7 @@ proxy-groups:
       - United States
       - Others
   - name: Spotify
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Spotify.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Spotify.webp
     type: select
     proxies:
       - DIRECT
@@ -115,7 +115,7 @@ proxy-groups:
       - United States
       - Others
   - name: OneDrive
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/OneDrive.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/OneDrive.webp
     type: select
     proxies:
       - DIRECT
@@ -139,7 +139,7 @@ proxy-groups:
       - United States
       - Others
   - name: PayPal
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/PayPal.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/PayPal.webp
     type: select
     proxies:
       - DIRECT
@@ -151,7 +151,7 @@ proxy-groups:
       - United States
       - Others
   - name: ChatGPT
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/ChatGPT.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/ChatGPT.webp
     type: select
     proxies:
       - Proxies
@@ -162,7 +162,7 @@ proxy-groups:
       - United States
       - Others
   - name: Gemini
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Gemini.jpg
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Gemini.webp
     type: select
     proxies:
       - Proxies
