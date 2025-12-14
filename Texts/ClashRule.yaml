@@ -10,7 +10,7 @@ proxy-groups:
       - United States
       - Others
   - name: Microsoft
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Microsoft.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/Microsoft.png
     type: select
     proxies:
       - DIRECT
@@ -22,7 +22,7 @@ proxy-groups:
       - United States
       - Others
   - name: Apple
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Apple_1.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/Apple.png
     type: select
     proxies:
       - DIRECT
@@ -34,7 +34,7 @@ proxy-groups:
       - United States
       - Others
   - name: Google
-    icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Google.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/Google.png
     type: select
     proxies:
       - Proxies
