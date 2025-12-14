@@ -9,8 +9,8 @@ proxy-groups:
       - Japan
       - United States
       - Others
-  - name: Apple
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Apple_1.png
+  - name: Microsoft
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Microsoft.png
     type: select
     proxies:
       - DIRECT
@@ -21,8 +21,8 @@ proxy-groups:
       - Japan
       - United States
       - Others
-  - name: Microsoft
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Microsoft.png
+  - name: Apple
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Apple_1.png
     type: select
     proxies:
       - DIRECT
@@ -114,8 +114,8 @@ proxy-groups:
       - Japan
       - United States
       - Others
-  - name: iCloud
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/iCloud.png
+  - name: OneDrive
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/OneDrive(1).png
     type: select
     proxies:
       - DIRECT
@@ -126,8 +126,8 @@ proxy-groups:
       - Japan
       - United States
       - Others
-  - name: OneDrive
-    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/OneDrive(1).png
+  - name: iCloud
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/iCloud.png
     type: select
     proxies:
       - DIRECT
