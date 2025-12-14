@@ -173,7 +173,7 @@ proxy-groups:
       - United States
       - Others
   - name: Unity
-    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Unity.png
+    icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/Unity.png
     type: select
     proxies:
       - DIRECT
