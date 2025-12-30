@@ -1,14 +1,4 @@
 proxy-groups:
-  - name: Proxy
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Proxy.png
-    type: select
-    proxies:
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
-      - Others
   - name: Microsoft
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/Microsoft.png
     type: select
@@ -20,7 +10,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: Apple
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/Apple.png
     type: select
@@ -32,7 +21,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: Google
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/Google.png
     type: select
@@ -44,7 +32,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: BiliBili
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/BiliBili.webp
     type: select
@@ -56,7 +43,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: YouTube
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/YouTube.webp
     type: select
@@ -68,7 +54,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: Bahamut
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Bahamut.webp
     type: select
@@ -80,7 +65,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: Steam
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Steam.webp
     type: select
@@ -92,7 +76,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: Xbox
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Xbox.webp
     type: select
@@ -104,7 +87,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: Spotify
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Spotify.webp
     type: select
@@ -116,7 +98,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: OneDrive
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/OneDrive.webp
     type: select
@@ -128,7 +109,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: iCloud
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/iCloud.png
     type: select
@@ -140,7 +120,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: PayPal
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/PayPal.webp
     type: select
@@ -152,7 +131,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: ChatGPT
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/ChatGPT.webp
     type: select
@@ -164,7 +142,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: Gemini
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/AppStore/Gemini.webp
     type: select
@@ -176,7 +153,6 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
   - name: Unity
     icon: https://raw.githubusercontent.com/beneswc/Resources/main/Images/Icon/Unity.png
     type: select
@@ -188,7 +164,21 @@ proxy-groups:
       - Singapore
       - Japan
       - United States
-      - Others
+  - name: Final
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Final.png
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+  - name: Proxy
+    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Proxy.png
+    type: select
+    proxies:
   - name: Hong Kong
     icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Hong_Kong.png
     type: select
@@ -209,10 +199,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/United_States.png
     type: select
     proxies:
-  - name: Others
-    icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/United_Nations.png
-    type: select
-    proxies:  
 rule-providers:
   Lan:
     type: http
@@ -310,4 +296,4 @@ rules:
   - RULE-SET,OneDrive,OneDrive
   - RULE-SET,Microsoft,Microsoft
   - GEOIP,CN,DIRECT
-  - MATCH,Proxy
+  - MATCH,Final
