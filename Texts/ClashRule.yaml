@@ -4,183 +4,135 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: Apple
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Apple.png
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: Google
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Google.webp
     type: select
     proxies:
-      - Proxy
+      - Proxy Group 1
+      - Proxy Group 2
       - DIRECT
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
   - name: BiliBili
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/BiliBili.webp
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: YouTube
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/YouTube.webp
     type: select
     proxies:
-      - Proxy
+      - Proxy Group 1
+      - Proxy Group 2
       - DIRECT
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
   - name: Bahamut
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Bahamut.webp
     type: select
     proxies:
-      - Proxy
+      - Proxy Group 1
+      - Proxy Group 2
       - DIRECT
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
   - name: Steam
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Steam.webp
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: Xbox
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Xbox.webp
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: Spotify
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Spotify.webp
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: OneDrive
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/OneDrive.webp
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: iCloud
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/iCloud.png
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: GitHub
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/GitHub.webp
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: ChatGPT
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/ChatGPT.webp
     type: select
     proxies:
-      - Proxy
+      - Proxy Group 1
+      - Proxy Group 2
       - DIRECT
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
-  - name: Gemini
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Gemini.webp
-    type: select
-    proxies:
-      - Proxy
-      - DIRECT
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+  # - name: Gemini
+  #   icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Gemini.webp
+  #   type: select
+  #   proxies:
+  #     - Proxy Group 1
+  #     - Proxy Group 2
+  #     - DIRECT
   - name: Unity
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
     type: select
     proxies:
       - DIRECT
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
-      - United States
+      - Proxy Group 1
+      - Proxy Group 2
   - name: PayPal
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/PayPal.webp
     type: select
     proxies:
       - DIRECT
+      - Proxy Group 1
+      - Proxy Group 2
+  - name: Final
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Final.png
+    type: select
+    proxies:
+      - Proxy Group 1
+      - Proxy Group 2
+      - DIRECT
+  - name: Proxy Group 1
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
+    type: select
+    proxies:
       - Proxy
       - Hong Kong
       - Taiwan
       - Singapore
       - Japan
       - United States
-  - name: Final
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Final.png
+  - name: Proxy Group 2
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
       - Proxy
-      - DIRECT
       - Hong Kong
       - Taiwan
       - Singapore
@@ -291,7 +243,7 @@ rule-providers:
 rules:
   - RULE-SET,PayPal,PayPal
   - RULE-SET,ChatGPT,ChatGPT
-  - RULE-SET,Gemini,Gemini
+  # - RULE-SET,Gemini,Gemini
   - RULE-SET,Unity,Unity
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,YouTube,YouTube
