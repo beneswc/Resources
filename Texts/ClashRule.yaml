@@ -47,6 +47,22 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+  - name: OneDrive
+    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/OneDrive.webp
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy Group 1
+      - Proxy Group 2
+      - Proxy Group 3
+  - name: iCloud
+    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/iCloud.png
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy Group 1
+      - Proxy Group 2
+      - Proxy Group 3
   - name: ChatGPT
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/ChatGPT.webp
     type: select
@@ -238,9 +254,9 @@ rules:
   - RULE-SET,Steam,Steam
   - RULE-SET,Xbox,Xbox
   - RULE-SET,Spotify,Spotify
+  - RULE-SET,OneDrive,OneDrive
+  - RULE-SET,iCloud,iCloud
   - RULE-SET,Apple-CN,DIRECT
-  - RULE-SET,Microsoft-CN,DIRECT
-  - RULE-SET,Google-CN,DIRECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Final
