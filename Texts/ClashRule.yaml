@@ -6,6 +6,7 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: Apple
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Apple.png
     type: select
@@ -13,12 +14,14 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: Google
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Google.webp
     type: select
     proxies:
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
       - DIRECT
   - name: BiliBili
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/BiliBili.webp
@@ -27,12 +30,14 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: YouTube
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/YouTube.webp
     type: select
     proxies:
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
       - DIRECT
   - name: Bahamut
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Bahamut.webp
@@ -40,6 +45,7 @@ proxy-groups:
     proxies:
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
       - DIRECT
   - name: Steam
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Steam.webp
@@ -48,6 +54,7 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: Xbox
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Xbox.webp
     type: select
@@ -55,6 +62,7 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: Spotify
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Spotify.webp
     type: select
@@ -62,6 +70,7 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: OneDrive
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/OneDrive.webp
     type: select
@@ -69,6 +78,7 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: iCloud
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/iCloud.png
     type: select
@@ -76,6 +86,7 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: GitHub
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/GitHub.webp
     type: select
@@ -83,20 +94,15 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: ChatGPT
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/ChatGPT.webp
     type: select
     proxies:
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
       - DIRECT
-  # - name: Gemini
-  #   icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Gemini.webp
-  #   type: select
-  #   proxies:
-  #     - Proxy Group 1
-  #     - Proxy Group 2
-  #     - DIRECT
   - name: Unity
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
     type: select
@@ -104,6 +110,7 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: PayPal
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/PayPal.webp
     type: select
@@ -111,12 +118,14 @@ proxy-groups:
       - DIRECT
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
   - name: Final
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Final.png
     type: select
     proxies:
       - Proxy Group 1
       - Proxy Group 2
+      - Proxy Group 3
       - DIRECT
   - name: Proxy Group 1
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
@@ -129,6 +138,16 @@ proxy-groups:
       - Japan
       - United States
   - name: Proxy Group 2
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
+    type: select
+    proxies:
+      - Proxy
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+  - name: Proxy Group 3
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
@@ -166,40 +185,57 @@ rule-providers:
   Apple:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/apple.yaml
+    interval: 86400
+  Apple-CN:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/apple@cn.yaml
     interval: 86400
   iCloud:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/iCloud/iCloud.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/icloud.yaml
     interval: 86400
   Microsoft:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/microsoft.yaml
+    interval: 86400
+  Microsoft-CN:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/microsoft@cn.yaml
+    interval: 86400
   OneDrive:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/onedrive.yaml
     interval: 86400
   Google:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/google.yaml
+    interval: 86400
+  Google-CN:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/google@cn.yaml
+    interval: 86400    
   BiliBili:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/bilibili.yaml
     interval: 86400
   YouTube:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/youtube.yaml
     interval: 86400
   Bahamut:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/bahamut.yaml
     interval: 86400
   Steam:
     type: http
@@ -208,17 +244,17 @@ rule-providers:
   Xbox:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Xbox/Xbox.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/xbox.yaml
     interval: 86400
   Spotify:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/spotify.yaml
     interval: 86400
   ChatGPT:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/openai.yaml
     interval: 86400
   Gemini:
     type: http
@@ -228,22 +264,21 @@ rule-providers:
   Unity:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Unity/Unity.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/unity.yaml
     interval: 86400
   PayPal:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PayPal/PayPal.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/paypal.yaml
     interval: 86400
   GitHub:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/github.yaml
     interval: 86400
 rules:
   - RULE-SET,PayPal,PayPal
   - RULE-SET,ChatGPT,ChatGPT
-  # - RULE-SET,Gemini,Gemini
   - RULE-SET,Unity,Unity
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,YouTube,YouTube
@@ -253,9 +288,8 @@ rules:
   - RULE-SET,Spotify,Spotify
   - RULE-SET,GitHub,GitHub
   - RULE-SET,Google,Google
-  - RULE-SET,iCloud,iCloud
+  - RULE-SET,Apple-CN,DIRECT
   - RULE-SET,Apple,Apple
-  - RULE-SET,OneDrive,OneDrive
   - RULE-SET,Microsoft,Microsoft
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
