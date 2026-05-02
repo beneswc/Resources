@@ -1,28 +1,4 @@
 proxy-groups:
-  - name: Microsoft
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Microsoft.png
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy Group 1
-      - Proxy Group 2
-      - Proxy Group 3
-  - name: Apple
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Apple.png
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy Group 1
-      - Proxy Group 2
-      - Proxy Group 3
-  - name: Google
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Google.webp
-    type: select
-    proxies:
-      - Proxy Group 1
-      - Proxy Group 2
-      - Proxy Group 3
-      - DIRECT
   - name: BiliBili
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/BiliBili.webp
     type: select
@@ -65,30 +41,6 @@ proxy-groups:
       - Proxy Group 3
   - name: Spotify
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Spotify.webp
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy Group 1
-      - Proxy Group 2
-      - Proxy Group 3
-  - name: OneDrive
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/OneDrive.webp
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy Group 1
-      - Proxy Group 2
-      - Proxy Group 3
-  - name: iCloud
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/iCloud.png
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy Group 1
-      - Proxy Group 2
-      - Proxy Group 3
-  - name: GitHub
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/GitHub.webp
     type: select
     proxies:
       - DIRECT
@@ -286,11 +238,9 @@ rules:
   - RULE-SET,Steam,Steam
   - RULE-SET,Xbox,Xbox
   - RULE-SET,Spotify,Spotify
-  - RULE-SET,GitHub,GitHub
-  - RULE-SET,Google,Google
   - RULE-SET,Apple-CN,DIRECT
-  - RULE-SET,Apple,Apple
-  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,Microsoft-CN,DIRECT
+  - RULE-SET,Google-CN,DIRECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Final
