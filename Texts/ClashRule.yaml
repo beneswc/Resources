@@ -63,7 +63,7 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
-  - name: ChatGPT
+  - name: OpenAI
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/ChatGPT.webp
     type: select
     proxies:
@@ -219,7 +219,7 @@ rule-providers:
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/spotify.yaml
     interval: 86400
-  ChatGPT:
+  OpenAI:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/openai.yaml
@@ -246,7 +246,7 @@ rule-providers:
     interval: 86400
 rules:
   - RULE-SET,PayPal,PayPal
-  - RULE-SET,ChatGPT,ChatGPT
+  - RULE-SET,OpenAI,OpenAI
   - RULE-SET,Unity,Unity
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,YouTube,YouTube
