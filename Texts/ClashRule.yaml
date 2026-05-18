@@ -71,6 +71,14 @@ proxy-groups:
       - Proxy Group 2
       - Proxy Group 3
       - DIRECT
+  - name: Anthropic
+    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Claude.webp
+    type: select
+    proxies:
+      - Proxy Group 1
+      - Proxy Group 2
+      - Proxy Group 3
+      - DIRECT
   - name: Unity
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
     type: select
@@ -224,6 +232,11 @@ rule-providers:
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/openai.yaml
     interval: 86400
+  Anthropic:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/anthropic.yaml
+    interval: 86400
   Gemini:
     type: http
     behavior: classical
@@ -245,6 +258,7 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/classical/github.yaml
     interval: 86400
 rules:
+  - RULE-SET,Anthropic,Anthropic
   - RULE-SET,PayPal,PayPal
   - RULE-SET,OpenAI,OpenAI
   - RULE-SET,Unity,Unity
