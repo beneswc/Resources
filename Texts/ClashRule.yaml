@@ -7,6 +7,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: YouTube
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/YouTube.webp
     type: select
@@ -14,6 +16,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
       - DIRECT
   - name: Bahamut
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Bahamut.webp
@@ -22,6 +26,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
       - DIRECT
   - name: Steam
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Steam.webp
@@ -31,6 +37,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: Xbox
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Xbox.webp
     type: select
@@ -39,6 +47,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: Spotify
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Spotify.webp
     type: select
@@ -47,6 +57,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: OneDrive
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/OneDrive.webp
     type: select
@@ -55,6 +67,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: iCloud
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/iCloud.png
     type: select
@@ -63,6 +77,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: OpenAI
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/ChatGPT.webp
     type: select
@@ -70,6 +86,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
       - DIRECT
   - name: Anthropic
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Claude.webp
@@ -78,6 +96,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
       - DIRECT
   - name: Unity
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
@@ -87,6 +107,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: PayPal
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/PayPal.webp
     type: select
@@ -95,6 +117,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: Final
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Final.png
     type: select
@@ -102,6 +126,8 @@ proxy-groups:
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
       - DIRECT
   - name: Proxy Group 1
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
@@ -124,6 +150,26 @@ proxy-groups:
       - Japan
       - United States
   - name: Proxy Group 3
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
+    type: select
+    proxies:
+      - Proxy
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+  - name: Proxy Group 4
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
+    type: select
+    proxies:
+      - Proxy
+      - Hong Kong
+      - Taiwan
+      - Singapore
+      - Japan
+      - United States
+  - name: Proxy Group 5
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
