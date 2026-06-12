@@ -9,7 +9,6 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
   - name: YouTube
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/YouTube.webp
     type: select
@@ -19,7 +18,6 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
       - DIRECT
   - name: Bahamut
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Bahamut.webp
@@ -30,52 +28,47 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
       - DIRECT
   - name: Steam
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Steam.webp
     type: select
     proxies:
-      - DIRECT
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
+      - DIRECT
   - name: Xbox
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Xbox.webp
     type: select
     proxies:
-      - DIRECT
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
+      - DIRECT
   - name: Spotify
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Spotify.webp
     type: select
     proxies:
-      - DIRECT
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
+      - DIRECT
   - name: OneDrive
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/OneDrive.webp
     type: select
     proxies:
-      - DIRECT
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
+      - DIRECT
   - name: iCloud
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/iCloud.png
     type: select
@@ -86,7 +79,6 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
   - name: OpenAI
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/ChatGPT.webp
     type: select
@@ -96,7 +88,6 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
       - DIRECT
   - name: Anthropic
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Claude.webp
@@ -107,19 +98,17 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
       - DIRECT
   - name: Unity
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
     type: select
     proxies:
-      - DIRECT
       - Proxy Group 1
       - Proxy Group 2
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
+      - DIRECT
   - name: PayPal
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/PayPal.webp
     type: select
@@ -130,7 +119,6 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
   - name: Final
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Final.png
     type: select
@@ -140,90 +128,70 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
-      - Proxy Group 6
       - DIRECT
   - name: Proxy Group 1
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
       - United States
+      - Japan
+      - Singapore
+      - Taiwan
+      - Hong Kong
   - name: Proxy Group 2
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
       - United States
+      - Japan
+      - Singapore
+      - Taiwan
+      - Hong Kong
   - name: Proxy Group 3
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
       - United States
+      - Japan
+      - Singapore
+      - Taiwan
+      - Hong Kong
   - name: Proxy Group 4
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
       - United States
+      - Japan
+      - Singapore
+      - Taiwan
+      - Hong Kong
   - name: Proxy Group 5
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
-      - Japan
       - United States
-  - name: Proxy Group 6
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
-    type: select
-    proxies:
-      - Proxy
-      - Hong Kong
-      - Taiwan
-      - Singapore
       - Japan
-      - United States
-  - name: Proxy
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
-    type: select
-    proxies:
-  - name: Hong Kong
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Hong_Kong.png
-    type: select
-    proxies:
-  - name: Taiwan
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Taiwan.png
-    type: select
-    proxies:
-  - name: Singapore
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Singapore.png
+      - Singapore
+      - Taiwan
+      - Hong Kong
+  - name: United States
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/United_States.png
     type: select
     proxies:
   - name: Japan
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Japan.png
     type: select
     proxies:
-  - name: United States
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/United_States.png
+  - name: Singapore
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Singapore.png
+    type: select
+    proxies:
+  - name: Taiwan
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Taiwan.png
+    type: select
+    proxies:
+  - name: Hong Kong
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Hong_Kong.png
     type: select
     proxies:
 rule-providers:
@@ -333,8 +301,8 @@ rule-providers:
     interval: 86400
 rules:
   - RULE-SET,Anthropic,Anthropic
-  - RULE-SET,PayPal,PayPal
   - RULE-SET,OpenAI,OpenAI
+  - RULE-SET,PayPal,PayPal
   - RULE-SET,Unity,Unity
   - RULE-SET,BiliBili,BiliBili
   - RULE-SET,YouTube,YouTube

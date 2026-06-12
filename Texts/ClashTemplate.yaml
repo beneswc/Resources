@@ -4,10 +4,3 @@ unified-delay: true
 mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
-dns:
-  enable: true
-  listen: 127.0.0.1:5334
-  use-system-hosts: true
-  nameserver:
-    - https://223.6.6.6/dns-query
-    - https://doh.pub/dns-query
