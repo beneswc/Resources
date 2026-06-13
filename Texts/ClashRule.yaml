@@ -59,6 +59,16 @@ proxy-groups:
       - Proxy Group 4
       - Proxy Group 5
       - DIRECT
+  - name: PayPal
+    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/PayPal.webp
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy Group 1
+      - Proxy Group 2
+      - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
   - name: OneDrive
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/OneDrive.webp
     type: select
@@ -69,16 +79,6 @@ proxy-groups:
       - Proxy Group 4
       - Proxy Group 5
       - DIRECT
-  - name: iCloud
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/iCloud.png
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy Group 1
-      - Proxy Group 2
-      - Proxy Group 3
-      - Proxy Group 4
-      - Proxy Group 5
   - name: Unity
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
     type: select
@@ -119,16 +119,6 @@ proxy-groups:
       - Proxy Group 4
       - Proxy Group 5
       - DIRECT
-  - name: PayPal
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/PayPal.webp
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy Group 1
-      - Proxy Group 2
-      - Proxy Group 3
-      - Proxy Group 4
-      - Proxy Group 5
   - name: Final
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Final.png
     type: select
@@ -143,65 +133,40 @@ proxy-groups:
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - United States
-      - Japan
-      - Singapore
-      - Taiwan
-      - Hong Kong
   - name: Proxy Group 2
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - United States
-      - Japan
-      - Singapore
-      - Taiwan
-      - Hong Kong
   - name: Proxy Group 3
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - United States
-      - Japan
-      - Singapore
-      - Taiwan
-      - Hong Kong
   - name: Proxy Group 4
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - United States
-      - Japan
-      - Singapore
-      - Taiwan
-      - Hong Kong
   - name: Proxy Group 5
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Proxy.png
     type: select
     proxies:
-      - United States
-      - Japan
-      - Singapore
-      - Taiwan
-      - Hong Kong
-  - name: United States
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/United_States.png
-    type: select
-    proxies:
-  - name: Japan
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Japan.png
-    type: select
-    proxies:
-  - name: Singapore
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Singapore.png
+  - name: Hong Kong
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Hong_Kong.png
     type: select
     proxies:
   - name: Taiwan
     icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Taiwan.png
     type: select
     proxies:
-  - name: Hong Kong
-    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Hong_Kong.png
+  - name: Singapore
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Singapore.png
+    type: select
+    proxies:
+  - name: Japan
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/Japan.png
+    type: select
+    proxies:
+  - name: United States
+    icon: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/icon/qure/color/United_States.png
     type: select
     proxies:
 rule-providers:
@@ -322,7 +287,6 @@ rules:
   - RULE-SET,Xbox,Xbox
   - RULE-SET,Spotify,Spotify
   - RULE-SET,OneDrive,OneDrive
-  - RULE-SET,iCloud,iCloud
   - RULE-SET,Google,Final
   - RULE-SET,Apple-CN,DIRECT
   - RULE-SET,Tencent,DIRECT
