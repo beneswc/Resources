@@ -79,6 +79,16 @@ proxy-groups:
       - Proxy Group 3
       - Proxy Group 4
       - Proxy Group 5
+  - name: Unity
+    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
+    type: select
+    proxies:
+      - Proxy Group 1
+      - Proxy Group 2
+      - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
+      - DIRECT
   - name: OpenAI
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/ChatGPT.webp
     type: select
@@ -99,8 +109,8 @@ proxy-groups:
       - Proxy Group 4
       - Proxy Group 5
       - DIRECT
-  - name: Unity
-    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
+  - name: Gemini
+    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Gemini.webp
     type: select
     proxies:
       - Proxy Group 1
@@ -302,6 +312,7 @@ rule-providers:
 rules:
   - RULE-SET,Anthropic,Anthropic
   - RULE-SET,OpenAI,OpenAI
+  - RULE-SET,Gemini,Gemini
   - RULE-SET,PayPal,PayPal
   - RULE-SET,Unity,Unity
   - RULE-SET,BiliBili,BiliBili
