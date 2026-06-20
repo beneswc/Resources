@@ -79,6 +79,16 @@ proxy-groups:
       - Proxy Group 4
       - Proxy Group 5
       - DIRECT
+  - name: GitHub
+    icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/GitHub.webp
+    type: select
+    proxies:
+      - Proxy Group 1
+      - Proxy Group 2
+      - Proxy Group 3
+      - Proxy Group 4
+      - Proxy Group 5
+      - DIRECT
   - name: Unity
     icon: https://cdn.jsdelivr.net/gh/beneswc/Resources@main/Images/Icon/App_Store/Unity.png
     type: select
@@ -287,6 +297,7 @@ rules:
   - RULE-SET,Xbox,Xbox
   - RULE-SET,Spotify,Spotify
   - RULE-SET,OneDrive,OneDrive
+  - RULE-SET,GitHub,GitHub
   - RULE-SET,Google,Final
   - RULE-SET,Apple-CN,DIRECT
   - RULE-SET,Tencent,DIRECT
