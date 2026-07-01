@@ -298,8 +298,10 @@ rules:
   - RULE-SET,Spotify,Spotify
   - RULE-SET,OneDrive,OneDrive
   - RULE-SET,GitHub,GitHub
-  - RULE-SET,Google,Final
   - RULE-SET,Apple-CN,DIRECT
+  - RULE-SET,Apple,Final
+  - RULE-SET,Google,Final
+  - RULE-SET,Microsoft,Final
   - RULE-SET,Tencent,DIRECT
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
